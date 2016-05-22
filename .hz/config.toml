@@ -68,7 +68,7 @@ project_name = "horizon_angular2_starter"
 # 'allow_unauthenticated' allows connections that are not tied to a user id
 # 'auth_redirect' specifies where users will be redirected to after login
 #------------------------------------------------------------------------------
-token_secret = "pCzts7DOy1f+jKB+Yd6RRiFbQtbyGbluvQrV3aOFoN5vgy+jRGtytDlmbu9pplwZl7jUz5hD41EI2Ye/2pic+w=="
+token_secret = "s3cr3t"
 # allow_anonymous = true
 # allow_unauthenticated = true
 # auth_redirect = "/"

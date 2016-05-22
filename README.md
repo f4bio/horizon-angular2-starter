@@ -5,6 +5,8 @@
 
 as this is my current experimental/learning/development project, there probably are many useless/unused dependencies and stuff
 
+if used for anything production related: change `token_secret` in `.hz/config.toml`
+
 ### how to
 1. `$ npm install`
 2. `$ webpack`
