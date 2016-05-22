@@ -1,0 +1,14 @@
+{
+  "ignore": [
+    "node_modules"
+  ],
+  "presets": [
+    "es2015"
+  ],
+  "sourceMaps": "both",
+  "plugins": [
+    "version-inline",
+    "lodash",
+    "add-module-exports"
+  ]
+}

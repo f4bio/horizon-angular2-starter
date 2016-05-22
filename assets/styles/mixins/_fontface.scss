@@ -1,0 +1,46 @@
+// https://raw.githubusercontent.com/magnetikonline/sassboilerplate/master/fontface.scss
+@mixin font-hack() {
+  $base: "~hack-font/build/webfonts/fonts";
+  @font-face {
+    font-family: "Hack";
+    src: url("#{$base}/eot/hack-regular-webfont.eot"), url("#{$base}/eot/hack-regular-webfont.eot?#iefix") format("embedded-opentype"), url("#{$base}/woff2/hack-regular-webfont.woff2") format("woff2"), url("#{$base}/web-ttf/hack-regular-webfont.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+  }
+}
+@mixin font-hack-web() {
+  $base: ".~hack-font/build/webfonts/fonts";
+  @font-face {
+    font-family: "Hack";
+    src: url("#{$base}/woff2/hack-regular-webfont.woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+  }
+}
+@mixin font-awesome-web() {
+  $base: "~font-awesome/fonts";
+  @font-face {
+    font-family: "FontAwesome";
+    src: url("#{$base}/fontawesome-webfont.woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+  }
+}
+@mixin font-roboto() {
+  $base: "~roboto-fontface/fonts";
+  @font-face {
+    font-family: "Roboto";
+    src: url("#{$base}/Roboto-Regular.eot"), url("#{$base}/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("#{$base}/Roboto-Regular.woff2") format("woff2"), url("#{$base}/Roboto-Regular.ttf") format("truetype"), url("#{$base}/Roboto-Regular.svg##{Roboto}") format("svg");
+    font-style: normal;
+    font-weight: normal;
+  }
+}
+@mixin font-roboto-web() {
+  $base: "~roboto-fontface/fonts";
+  @font-face {
+    font-family: "Roboto";
+    src: url("#{$base}/Roboto-Regular.woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+  }
+}

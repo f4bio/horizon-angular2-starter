@@ -1,0 +1,110 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "mocha": true
+  },
+  "parser": "babel-eslint",
+  "ecmaFeatures": {
+    "blockBindings": true,
+    "modules": true
+  },
+  "extends": [
+    "angular",
+    "standard"
+  ],
+  "plugins": [
+    "promise",
+    "standard",
+    "html",
+    "angular"
+  ],
+  "globals": {
+    "angular": true
+  },
+  "settings": {
+    "html/report-bad-indent": 2,
+    "angular": 2
+  },
+  "rules": {
+    "angular/di": [
+      2,
+      "array"
+    ],
+    "space-before-function-paren": 0,
+    "strict": 0,
+    "no-multi-spaces": 0,
+    "semi": [
+      2,
+      "always"
+    ],
+    "no-shadow": 0,
+    "consistent-return": 0,
+    "no-this-before-super": 0,
+    "no-use-before-define": 0,
+    "new-parens": 2,
+    "no-cond-assign": 2,
+    "keyword-spacing": 0,
+    "space-infix-ops": 2,
+    "padded-blocks": 0,
+    "key-spacing": [
+      2,
+      {
+        "beforeColon": false,
+        "afterColon": true
+      }
+    ],
+    "comma-dangle": [
+      2,
+      "never"
+    ],
+    "no-multiple-empty-lines": [
+      2,
+      {
+        "max": 2
+      }
+    ],
+    "quotes": [
+      2,
+      "double"
+    ],
+    "eqeqeq": [
+      2,
+      "smart"
+    ],
+    "wrap-iife": [
+      2,
+      "inside"
+    ],
+    "indent": [
+      2,
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "brace-style": [
+      2,
+      "1tbs"
+    ],
+    "spaced-comment": [
+      2,
+      "always",
+      {
+        "exceptions": [
+          "-",
+          "+",
+          "*"
+        ]
+      }
+    ],
+    "no-unused-vars": [
+      2,
+      {
+        "vars": "all",
+        "args": "after-used"
+      }
+    ]
+  }
+}

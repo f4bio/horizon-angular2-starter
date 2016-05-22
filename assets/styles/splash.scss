@@ -1,0 +1,25 @@
+@import "mixins/fontface";
+@include font-hack-web();
+$font-stack: "Hack", monospace;
+$spinkit-spinner-color: white;
+@import "~please-wait/build/please-wait.css";
+@import "~spinkit/scss/spinners/11-folding-cube";
+
+body {
+  > .inner {
+    display: none;
+  }
+  &.pg-loaded {
+    > .inner {
+      display: block;
+    }
+  }
+}
+p {
+  &.loading-message {
+    font-family: $font-stack;
+    font-size: 150%;
+    display: block;
+    color: white;
+  }
+}

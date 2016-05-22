@@ -1,0 +1,80 @@
+@import "mixins/theme";
+
+html, body {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+md-nav-list {
+  .md-list-item {
+    width: 100%;
+    text-align: center;
+    span {
+      font-size: 120%;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+md-sidenav {
+  width: 25%;
+}
+
+md-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+
+  md-card {
+    width: 98%;
+    margin: 5% auto 0 auto;
+  }
+}
+
+.fill {
+  flex: 1 1 auto;
+}
+
+.half-width {
+  width: 49%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.icon-menu {
+  margin-right: 10%;
+}
+
+.ng-valid[required] {
+  border-bottom: 0 solid #42A948; /* green */
+}
+
+.ng-invalid {
+  border-bottom: 0 solid #a94442; /* red */
+}
+
+// .icon-white {
+//   color: white !important;
+//   font-size: 16px !important;
+// }
+// .icon-spacer {
+//   margin: auto 1%;
+// }
+// .flex-container {
+//   display: -webkit-flex;
+//   display: flex;
+//   width: 100%;
+//   height: 98vh;
+// }
+//
+// .flex-item {
+//   width: 98%;
+//   height: 100%;
+//   margin: auto;
+// }
