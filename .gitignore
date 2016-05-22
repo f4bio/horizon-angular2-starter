@@ -1,0 +1,157 @@
+###### ################
+##	project related
+### #############
+# see bottom
+
+###### ################
+##	certificates
+### #############
+# *.pem
+# *.srl
+# *.p12
+# *.pks
+# *.crt
+# *.csr
+# *.crl
+# ca-database*
+
+###### ################
+##	system (windows)
+### ##############
+Thumbs.db
+
+###### ################
+##	system (linux)
+### ##############
+*~
+.svn/
+# *.key
+
+###### ################
+##	docker
+### ##############
+.docker
+
+###### ################
+##	vagrant
+### ##############
+boxes/*
+/.vagrant
+/*.box
+
+###### ################
+##	java
+### ##############
+*.class
+
+###### ################
+##	sass / less
+### ##############
+.sass-cache
+
+###### ################
+##	typescript
+### #############
+typings/
+assets/**/*.js
+assets/**/*.js.map
+
+###### ################
+##	nodejs / npm
+### ##############
+node_modules/
+lib-cov
+*.seed
+#.env
+
+###### ################
+##	bowerjs
+### #############
+bower_components/
+
+###### ################
+##	sailsjs
+### #############
+.sails
+.waterline
+.rigging
+.tmp
+config/local.js
+assets/vendor
+www/
+
+###### ################
+##	other
+### #############
+*.log*
+
+###### ################
+##	system (osx)
+##	thx: http://goo.gl/y4dZq
+### #############
+.DS_Store
+
+###### ################
+##	eclipse
+##	thx: http://goo.gl/y4dZq
+### #############
+.classpath
+.project
+.settings/
+
+###### ################
+##	intellij
+##	thx: http://goo.gl/y4dZq
+### #############
+.idea/
+*.iml
+*.iws
+
+###### ################
+##	visual studio
+### #############
+.vs/
+*.njsproj
+*.sln
+
+###### ################
+##	maven
+##	thx: http://goo.gl/y4dZq
+### #############
+target/
+
+###### ################
+##	android
+### #############
+proguard_logs/
+
+###### ################
+##	gradle
+### #############
+.gradle
+local.properties
+gradle.properties
+build/*
+
+###### ################
+##	python
+##	thx: http://goo.gl/WR3a3F
+### #############
+__pycache__/
+__init__.py
+*.py[cod]
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+.cache
+
+###### ################
+##	project related
+### #############
+rethinkdb_data/
+dist/
+
+###### ################
+##	keep keepers
+### #############
+!.gitkeep
