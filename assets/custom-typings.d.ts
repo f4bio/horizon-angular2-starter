@@ -20,7 +20,7 @@
  * see https://github.com/typings/registry
  *
  */
-
+declare const Horizon: any;
 
 // Extra variables that live on Global that will be replaced by webpack DefinePlugin
 declare var __ENV__: string;

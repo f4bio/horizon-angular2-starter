@@ -1,8 +1,6 @@
 import {Component} from "@angular/core";
 // import Horizon from "/horizon/horizon.js";
 
-declare const Horizon: any;
-
 @Component({
   selector: "cg-app",
   template: `<h1>My First Angular 2 App</h1>`
